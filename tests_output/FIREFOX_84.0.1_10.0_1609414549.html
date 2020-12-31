@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Results - FIREFOX 84.0.1 10.0 </title>
+
+  <style>
+    html, body {
+      font-family: Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body { padding: 10px 40px; }
+    table { width: 100%; margin-bottom: 20px; }
+      td {
+        padding: 7px;
+        border-top: none;
+        border-left: 1px black solid;
+        border-bottom: 1px black solid;
+        border-right: none;
+      }
+      td.pass { color: #003b07; background: #86e191; }
+      td.skip { color: #7d3a00; background: #ffd24a; }
+      td.fail { color: #5e0e00; background: #ff9c8a; }
+    tr:last-child       { border-top: 1px black solid; }
+      tr:last-child td    { border-top: 1px black solid; }
+      tr:first-child td   { border-top: 1px black solid; }
+        td:last-child       { border-right: 1px black solid; }
+    tr.overview td      { padding-bottom: 0px; border-bottom: none; }
+    tr.overview.last td { padding-bottom: 3px; }
+    ul.assertions   { list-style-type: none; }
+      span.error      { color: #AD2B2B; }
+      span.success    { color: #53891E; }
+    .stacktrace { display: inline; }
+      .stacktrace code { display: none; }
+    #nightwatch-logo {
+      position: absolute;
+      top: 20px;
+      right: 33px;
+      width: 70px;
+      height: 75px;
+      background: transparent url('http://nightwatchjs.org/img/logo-nightwatch.png') no-repeat;
+      background-size: 70px 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test Results</h1>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr class="overview">
+      <td colspan="3" title="FIREFOX 84.0.1 10.0 "><strong>Browser:</strong> FIREFOX 84.0.1 10.0 </td>
+    </tr>
+    <tr class="overview">
+      <td colspan="3"><strong>Timestamp:</strong> Thu Dec 31 2020 17:35:49 GMT+0600 (Bangladesh Standard Time)</td>
+    </tr>
+    <tr class="overview last">
+      <td colspan="3"><strong>Tests:</strong> 0<br></td>
+    </tr>
+    <tr>
+      <td class="pass"><strong>36</strong> passed</td>
+      <td class="skip"><strong>0</strong> errors</td>
+      <td class="fail"><strong>0</strong> failures</td>
+    </tr>
+  </table>
+
+      <h2>payment</h2>
+
+        <h3>Test Case 1: Verify the login page</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Email input field is visible [0;90m(1125ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Password input field is visible [0;90m(17ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Login button is visible [0;90m(26ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (7.307s)
+        </p>
+        <h3>Test Case 2: Verify the login page</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL is [0;33m&#x27;https://testapp.xcoobee.net/user&#x27;[0m [0;90m(24ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>1</strong></span> assertions passed. (16.68s)
+        </p>
+        <h3>Test Case 3: Go to Payment Tab Section</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@profileDropdown]&gt;[0m is present [0;90m(10ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@settingNav]&gt;[0m is present [0;90m(20ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@paymentTab]&gt;[0m is present [0;90m(29ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (7.122s)
+        </p>
+        <h3>Test Case 4: Verify the Payment History</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Last Invoice link text visible [0;90m(60ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              View History link text visible [0;90m(38ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if the URL is [0;33m&#x27;https://testapp.xcoobee.net/user/balances/active&#x27;[0m [0;90m(23ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@downloadCSV]&gt;[0m is present [0;90m(11ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              View Invoice link text visible [0;90m(42ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>5</strong></span> assertions passed. (10.47s)
+        </p>
+        <h3>Test Case 5: Verify Subscription Tab Option</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@subscription]&gt;[0m is present [0;90m(17ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Subscription tab is visible [0;90m(18ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@subscriptionContent]&gt;[0m contains text [0;33m&#x27;No results found&#x27;[0m [0;90m(1801ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (6.660s)
+        </p>
+        <h3>Test Case 6: Verify Currency Option List</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@currencyTitle]&gt;[0m is present [0;90m(5ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Title is match with expected result [0;90m(8ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              EUR Currency selected successfully [0;90m(20ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>3</strong></span> assertions passed. (4.634s)
+        </p>
+        <h3>Test Case 7: Verify Auto Reload Point</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@autoReloadPoint]&gt;[0m is present [0;90m(17ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Title Auto Reload Points is matched [0;90m(33ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@enableButton]&gt;[0m is present [0;90m(10ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Button is enabled now [0;90m(20ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Modal popup box is visible [0;90m(20ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Popup header title element is present [0;90m(3ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Popup header title is matched [0;90m(8ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Popup body content element is present [0;90m(10ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Popup box body content is matched [0;90m(20ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Button is disable now [0;90m(32ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@saveButton]&gt;[0m is present [0;90m(898ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if attribute [0;33m&#x27;disabled&#x27;[0m of element [0;33m&lt;Element [name&#x3D;@saveDisableAttribute]&gt;[0m contains [0;33m&#x27;true&#x27;[0m [0;90m(99ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>12</strong></span> assertions passed. (20.93s)
+        </p>
+        <h3>Test Case 8: Verify Update Payment Method</h3>
+        <ul class="assertions">
+            <li>
+                <span class="success">&#10004;</span>
+
+              Testing if element [0;33m&lt;Element [name&#x3D;@paymentMethodTitle]&gt;[0m contains text [0;33m&#x27;Payment Method&#x27;[0m [0;90m(60ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              First Name input field is visible [0;90m(81ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Last Name input field is visible [0;90m(50ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Street input field is visible [0;90m(27ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              City input field is visible [0;90m(26ms)[0m
+
+
+            </li>
+            <li>
+                <span class="success">&#10004;</span>
+
+              Postal code input field is visible [0;90m(39ms)[0m
+
+
+            </li>
+        </ul>
+
+        <p>
+            <span class="success"><strong>OK.</strong></span>
+            <span class="success"><strong>6</strong></span> assertions passed. (17.73s)
+        </p>
+
+
+      <hr>
+
+  <div id="nightwatch-logo"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $(function() {
+    $('div.stacktrace').on('click', 'a', function(evt) {
+      evt.preventDefault();
+      var $link = $(this);
+      var $code = $link.parent().find('code');
+      $code.is(':visible') ? $link.text('hide stacktrace'):
+                             $link.text('view stacktrace');
+      $code.toggle();
+    });
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="57.04" timestamp="">
+  
+    <testcase name="Verify the Payment module" classname="test" time="57.04" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;.checkbox-column&gt;input&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input&gt;: 
+    at ClickElement.noSuchElementError (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\element\command.js:399:12)
+    at Object.errorHandler (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\api\element-commands\_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\utils\periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

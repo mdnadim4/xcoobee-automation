@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="xcoobee"
+    errors="1" failures="0" hostname="" id="" package="xcoobee" skipped="0"
+    tests="1" time="26.42" timestamp="">
+  
+    <testcase name="Verify the login module" classname="xcoobee" time="26.42" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    <error message="browser.windowMaximize(...).url(...).waitForElementVisible(...).setValue(...).pause(...).setValue(...).pause(...).click(...).pause(...).assert.urlEquals(...).click(...).click(...).pause(...).click(...).pause(...).click(...).assert.elementPresent(...).assert.containsText(...).pause(...).click(...).containsText is not a function" type="error"><![CDATA[
+    TypeError: browser.windowMaximize(...).url(...).waitForElementVisible(...).setValue(...).pause(...).setValue(...).pause(...).click(...).pause(...).assert.urlEquals(...).click(...).click(...).pause(...).click(...).pause(...).click(...).assert.elementPresent(...).assert.containsText(...).pause(...).click(...).containsText is not a function
+    at Object.Verify the login module (C:\Users\Nadim\Desktop\xcoobee\tests\xcoobee.js:27:14)
+    at Context.call (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\testcase.js:53:31)
+    at Runnable.__runFn (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\index.js:376:80)
+    at Runnable.run (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    at C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\testsuite\index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (C:\Users\Nadim\Desktop\xcoobee\node_modules\nightwatch\lib\runner\test-runners\default.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: browser.windowMaximize(...).url(...).waitForElementVisible(...).setValue(...).pause(...).setValue(...).pause(...).click(...).pause(...).assert.urlEquals(...).click(...).click(...).pause(...).click(...).pause(...).click(...).assert.elementPresent(...).assert.containsText(...).pause(...).click(...).containsText is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.Verify the login module (C:\Users\Nadim\Desktop\xcoobee\tests\xcoobee.js:27:14)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

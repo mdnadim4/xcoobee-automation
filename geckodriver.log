@@ -1,0 +1,13 @@
+1609407255390	geckodriver	INFO	Listening on 127.0.0.1:4444
+1609407255728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofile6E3lHw"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609407257618	Marionette	INFO	Listening on port 52433
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609407341001	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1609407343353	Marionette	INFO	Stopped listening on port 52433

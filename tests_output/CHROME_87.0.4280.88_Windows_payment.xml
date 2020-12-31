@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="payment"
+    errors="1" failures="1" hostname="" id="" package="payment" skipped="0"
+    tests="1" time="46.83" timestamp="">
+  
+    <testcase name="Verify the Payment module" classname="payment" time="46.83" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;body &gt; div:nth-child(20) &gt; div &gt; div &gt; div &gt; div.modal-header &gt; h4 &gt; span&gt; contains text &#39;Auto Reload Points&#39; in 5000ms - expected &#34;contains text &#39;Auto Reload Points&#39;&#34; but got: &#34;element could not be located&#34; (5279ms)">    at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\payment.js:77:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;body &gt; div:nth-child(20) &gt; div &gt; div &gt; div &gt; div.modal-header &gt; h4 &gt; span&gt;[0m contains text [0;33m&#39;Auto Reload Points&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Auto Reload Points&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5279ms)[0m" type="error"><![CDATA[
+        at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\payment.js:77:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        SyntaxError: Unexpected end of input
+       }
+        
+   
+   SyntaxError: Unexpected end of input
+       at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+       at Module._compile (internal/modules/cjs/loader.js:1122:27)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+       at Module.load (internal/modules/cjs/loader.js:1002:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+       at Module.require (internal/modules/cjs/loader.js:1044:19)
+       at require (internal/modules/cjs/helpers.js:77:18)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;body &gt; div:nth-child(20) &gt; div &gt; div &gt; div &gt; div.modal-header &gt; h4 &gt; span&gt;: 
+   {&#34;sessionId&#34;:&#34;a21543061bc4bcad0f8b72ed34801bdb&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

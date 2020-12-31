@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="payment"
+    errors="2" failures="1" hostname="" id="" package="payment" skipped="0"
+    tests="1" time="34.76" timestamp="">
+  
+    <testcase name="Verify the Payment module" classname="payment" time="34.76" assertions="4">
+
+    
+
+    
+
+      <failure message="View History link text visible in 5000ms - expected &#34;contains text &#39;View History&#39;&#34; but got: &#34;element could not be located&#34; (5145ms)">    at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\payment.js:42:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: View History link text visible in 5000ms - expected [0;32m&#34;contains text &#39;View History&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5145ms)[0m" type="error"><![CDATA[
+        at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\payment.js:42:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input[type=&#34;checkbox&#34;]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;.btn.btn-link:nth-child(2)&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  Error: Error while running &#34;setValue&#34; command: &#34;Error: Provided locating strategy &#34;input[name=firstName]&#34; is not supported for .setValue(). It must be one of the following: id, css selector, link text, partial link text, tag name, xpath.
+  &#34;
+       at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\test.js:109:14)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

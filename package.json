@@ -1,0 +1,17 @@
+{
+  "name": "xcoobee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^86.0.0",
+    "geckodriver": "^1.20.0",
+    "nightwatch": "^1.5.1"
+  }
+}

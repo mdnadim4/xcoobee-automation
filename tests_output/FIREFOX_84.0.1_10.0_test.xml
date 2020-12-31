@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="52.97" timestamp="">
+  
+    <testcase name="Verify the Payment module" classname="test" time="52.97" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Enable button element is visible in 5000ms - expected &#34;is present&#34; but got: &#34;not present&#34; (5354ms)">    at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\test.js:75:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;elementPresent&#34; command: Enable button element is visible in 5000ms - expected [0;32m&#34;is present&#34;[0m but got: [0;31m&#34;not present&#34;[0m [0;90m(5354ms)[0m" type="error"><![CDATA[
+        at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\test.js:75:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

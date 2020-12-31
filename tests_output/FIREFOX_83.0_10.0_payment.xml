@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="payment"
+    errors="2" failures="0" hostname="" id="" package="payment" skipped="0"
+    tests="1" time="56.98" timestamp="">
+  
+    <testcase name="Verify the Payment module" classname="payment" time="56.98" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .setValue() command on &lt;#user-settings-pane-payments &gt; div &gt; div:nth-child(5) &gt; div &gt; div &gt; div &gt; div &gt; div.row &gt; div &gt; div &gt; div&gt;: element not interactable; Element &lt;div class=&#34;xb-select__control css-yk16xz-control&#34;&gt; is not reachable by keyboard" type="error"><![CDATA[
+    TimeoutError: An error occurred while running .setValue() command on &lt;#user-settings-pane-payments &gt; div &gt; div:nth-child(5) &gt; div &gt; div &gt; div &gt; div &gt; div.row &gt; div &gt; div &gt; div&gt;: element not interactable; Element &lt;div class=&#34;xb-select__control css-yk16xz-control&#34;&gt; is not reachable by keyboard
+    at PeriodicPromise.getError (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\utils\periodic-promise.js:161:12)
+    at PeriodicPromise.perform (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\utils\periodic-promise.js:111:16)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async PeriodicPromise.runAction (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\utils\periodic-promise.js:48:22)
+    at async PeriodicPromise.runAction (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\utils\periodic-promise.js:51:16)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input[type=&#34;checkbox&#34;]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  TimeoutError: An error occurred while running .setValue() command on &lt;#user-settings-pane-payments &gt; div &gt; div:nth-child(5) &gt; div &gt; div &gt; div &gt; div &gt; div.row &gt; div &gt; div &gt; div&gt;: element not interactable; Element &lt;div class=&#34;xb-select__control css-yk16xz-control&#34;&gt; is not reachable by keyboard
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;element not interactable&#34;,&#34;message&#34;:&#34;Element &lt;div class=\&#34;xb-select__control css-yk16xz-control\&#34;&gt; is not reachable by keyboard&#34;,&#34;stacktrace&#34;:&#34;&#34;},&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;Element &lt;div class=\&#34;xb-select__control css-yk16xz-control\&#34;&gt; is not reachable by keyboard&#34;,&#34;httpStatusCode&#34;:400}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  TypeError: browser.windowMaximize(...).url(...).waitForElementVisible(...).setValue(...).pause(...).setValue(...).pause(...).click(...).pause(...).assert.urlEquals(...).click(...).click(...).pause(...).click(...).pause(...).click(...).pause(...).assert.containsText(...).pause(...).assert.containsText(...).click(...).assert.urlEquals(...).assert.elementPresent(...).pause(...).click(...).assert.containsText(...).click(...).assert.containsText(...).click(...).pause(...).assert.visible(...).assert.containsText(...).pause(...).click(...).pause(...).click(...).assert.containsText(...).pause(...).execute(...).assert.visible(...).assert.containsText(...).assert.elementPresent(...).assert.containsText(...).click(...).pause(...).assert.elementPresent(...).assert.elementPresent(...).assert.containsText(...).assert.elementPresent(...).assert.containsText(...).click(...).click(...).sebdkeys is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.
+       at Object.Verify the Payment module (C:\Users\Nadim\Desktop\payment\tests\test.js:92:14)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;.checkbox-column&gt;input[type=&#34;checkbox&#34;]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

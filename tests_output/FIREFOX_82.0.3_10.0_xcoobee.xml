@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="xcoobee"
+    errors="0" failures="1" hostname="" id="" package="xcoobee" skipped="0"
+    tests="1" time="28.77" timestamp="">
+  
+    <testcase name="Verify the login module" classname="xcoobee" time="28.77" assertions="4">
+
+    
+
+    
+
+      <failure message="Verify the alert box in 5000ms - expected &#34;is present&#34; but got: &#34;not present&#34; (5259ms)">    at Object.Verify the login module (C:\Users\Nadim\Desktop\xcoobee\tests\xcoobee.js:25:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

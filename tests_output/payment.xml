@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="payment"
+    errors="1" failures="0" hostname="" id="" package="payment" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;Access is denied. (os error 5)&#34;
+       at endReadableNT (_stream_readable.js:1204:12)
+       at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    </system-err>
+  
+
+    
+    <error message="An error occurred while retrieving a new session: &#34;Access is denied. (os error 5)&#34;"><![CDATA[
+      Error: An error occurred while retrieving a new session: &#34;Access is denied. (os error 5)&#34;
+    at WebdriverProtocol.handleSessionCreateError (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\transport\transport.js:103:15)
+    at HttpRequest.&lt;anonymous&gt; (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\transport\transport.js:159:32)
+    at HttpRequest.emit (events.js:311:20)
+    at HttpResponse.&lt;anonymous&gt; (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\http\request.js:142:19)
+    at HttpResponse.emit (events.js:311:20)
+    at IncomingMessage.&lt;anonymous&gt; (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\http\response.js:60:14)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Verify the Payment module" classname="payment">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

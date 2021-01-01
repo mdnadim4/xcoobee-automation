@@ -13,7 +13,7 @@ module.exports = {
     "Test Case 2: Verify the login page": (browser) => {
         let page = browser.page.paymentObject()
 
-        page.navigate()
+        page
             .verifyLogin()
             .saveScreenshot("./screenshots/" + "Profile.png")
     },

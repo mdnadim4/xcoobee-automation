@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filedrop"
+    errors="1" failures="0" hostname="" id="" package="filedrop" skipped="0"
+    tests="4" time="32.82" timestamp="">
+  
+    <testcase name="Test Case 1: Verify the login page" classname="filedrop" time="5.958" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 2: Verify the login page" classname="filedrop" time="14.54" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 3: Go to File Drop tab section" classname="filedrop" time="5.359" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 4: Verify File Drop options" classname="filedrop" time="6.963" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="Unknown api method &#34;getText&#34;." type="error"><![CDATA[
+    Error: Unknown api method &#34;getText&#34;.
+    at Proxy.&lt;anonymous&gt; (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\api\index.js:133:19)
+    at Page.verifyFileDropOptions (C:\Users\Nadim\Desktop\payment\page-objects\filedropObject.js:83:25)
+    at Object.Test Case 4: Verify File Drop options (C:\Users\Nadim\Desktop\payment\tests\filedrop.js:32:14)
+    at Context.call (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\context.js:379:35)
+    at TestCase.run (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\testcase.js:53:31)
+    at Runnable.__runFn (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\index.js:376:80)
+    at Runnable.run (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\runnable.js:123:21)
+    at TestSuite.createRunnable (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\index.js:443:33)
+    at TestSuite.handleRunnable (C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\index.js:448:18)
+    at C:\Users\Nadim\Desktop\payment\node_modules\nightwatch\lib\testsuite\index.js:376:21
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Unknown api method &#34;getText&#34;.
+       at Page.verifyFileDropOptions (C:\Users\Nadim\Desktop\payment\page-objects\filedropObject.js:83:25)
+       at Object.Test Case 4: Verify File Drop options (C:\Users\Nadim\Desktop\payment\tests\filedrop.js:32:14)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -71,8 +71,7 @@ module.exports = {
        verifyFileDropOptions: function() {
         return this
                 .click("@reactToggle")
-                .pause(5000)
-                .waitForElementVisible(".modal-content", 2000)
+                .waitForElementVisible(".modal-content")
                 .assert.elementPresent("@modalDialog", "Verify the alert box")
                 .assert.containsText("@modalHeader", "Please confirm")
                 .assert.containsText("@modalButton", "OK")
@@ -94,8 +93,7 @@ module.exports = {
     
                 // "Embaded Form"
                 .click("@embeddedForm")
-                .waitForElementVisible("@modalTitle", 10000)
-                .assert.containsText("@modalTitle", "Embedded Form")
+                .pause(2000)
                 .click("@options")
                 .pause(2000)
                 .assert.valueContains("@width", "400px")

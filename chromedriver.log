@@ -2,4 +2,5 @@ Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-ref
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1607412466.933][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+[1609741641.678][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+[1609741678.306][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.

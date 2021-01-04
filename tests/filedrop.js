@@ -1,7 +1,7 @@
 module.exports = {
     "@tags": ["filedrop"],
 
-    "Test Case 1: Verify the login page": (browser) => {
+    "Test Case 1: Verify the login element visibility": (browser) => {
         let page = browser.page.filedropObject()
 
         page.navigate()
@@ -31,6 +31,7 @@ module.exports = {
         page
             .verifyFileDropOptions()
             .saveScreenshot("./screenshots/" + "Filedropopton.png")
+            .end();
     },
 
 };

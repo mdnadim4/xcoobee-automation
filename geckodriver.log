@@ -1,7 +1,7 @@
-1609498201023	geckodriver	INFO	Listening on 127.0.0.1:4444
-1609498201314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofilejzRVwZ"
+1609740061063	geckodriver	INFO	Listening on 127.0.0.1:4444
+1609740061379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofilePXYRgA"
 *** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1609498203189	Marionette	INFO	Listening on port 61617
-1609498236260	Marionette	INFO	Stopped listening on port 61617
+1609740063349	Marionette	INFO	Listening on port 53975
+1609740117416	Marionette	INFO	Stopped listening on port 53975

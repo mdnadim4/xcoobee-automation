@@ -23,6 +23,7 @@ module.exports = {
         width: "input[name=width]",
         height: "input[name=height]",
         closeButton: "div.modal-footer > button:nth-child(2) > span",
+        fileDropDisable: ".react-toggle-track-check"
     },
 
     commands: [{
@@ -70,8 +71,8 @@ module.exports = {
        verifyFileDropOptions: function() {
         return this
                 .click("@reactToggle")
-                // .pause(5000)
-                .waitForElementVisible(".modal-content", 5000)
+                .pause(5000)
+                .waitForElementVisible(".modal-content", 2000)
                 .assert.elementPresent("@modalDialog", "Verify the alert box")
                 .assert.containsText("@modalHeader", "Please confirm")
                 .assert.containsText("@modalButton", "OK")
@@ -80,12 +81,12 @@ module.exports = {
     
                 // Access code
                 .assert.elementPresent("@accessCode")
-                .assert.getText("@accessCode", function(result){
-                    var code = result.value;
-                    this.assert.value("@accessCode", code)
+                .getValue("@accessCode", function(result){
+                    code = result.value;
+                    console.log(`Access code is: ${code}`)
                 })
                 .click("@resetButton")
-                .assert.not.value("@accessCode", code)
+                // .assert.not.value("@accessCode", code)
 
                 // Verify the URL
                 .assert.containsText("@yourUrl", "https://testfiledrop.xcoobee.net?xid=~test_vir1")
@@ -93,15 +94,22 @@ module.exports = {
     
                 // "Embaded Form"
                 .click("@embeddedForm")
+                .waitForElementVisible("@modalTitle", 10000)
                 .assert.containsText("@modalTitle", "Embedded Form")
                 .click("@options")
+                .pause(2000)
                 .assert.valueContains("@width", "400px")
+                .clearValue("@width")
+                .pause(2000)
                 .setValue("@width", "500px")
                 .assert.valueContains("@height", "600px")
+                .clearValue("@height")
+                .pause(2000)
                 .setValue("@height", "700px")
                 .click("@closeButton")
-
-                .click("@reactToggle")
+                .pause(2000)
+                .click("@fileDropDisable")
+                .pause(5000)
 
     },
 

@@ -16,10 +16,11 @@ before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install: 
+  - npm ci
   - npm install
 
 script:
-  - npm test
+  - xvfb run npm test
 
 deploy:
   provider: pages

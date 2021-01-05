@@ -20,7 +20,7 @@ install:
   - npm install
 
 script:
-  - xvfb run npm test
+  - npm test
 
 deploy:
   provider: pages

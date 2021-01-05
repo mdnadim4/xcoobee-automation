@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="filedrop"
+    errors="0" failures="0" hostname="" id="" package="filedrop" skipped="0"
+    tests="4" time="50.27" timestamp="">
+  
+    <testcase name="Test Case 1: Verify the login element visibility" classname="filedrop" time="5.787" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 2: Verify the login page" classname="filedrop" time="14.69" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 3: Go to File Drop tab section" classname="filedrop" time="4.862" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 4: Verify File Drop options" classname="filedrop" time="24.93" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

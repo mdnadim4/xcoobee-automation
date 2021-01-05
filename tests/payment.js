@@ -1,6 +1,7 @@
 module.exports = {
     
     "@tags": ["payment"],
+    "@disabled": true,
 
     "Test Case 1: Verify the login page": (browser) => {
         let page = browser.page.paymentObject()

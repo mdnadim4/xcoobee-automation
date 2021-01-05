@@ -71,7 +71,7 @@ module.exports = {
        verifyFileDropOptions: function() {
         return this
                 .click("@reactToggle")
-                .waitForElementVisible(".modal-content")
+                .waitForElementVisible("@modalDialog")
                 .assert.elementPresent("@modalDialog", "Verify the alert box")
                 .assert.containsText("@modalHeader", "Please confirm")
                 .assert.containsText("@modalButton", "OK")

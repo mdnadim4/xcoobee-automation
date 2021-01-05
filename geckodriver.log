@@ -1,20 +1,11 @@
-1609743028916	geckodriver	INFO	Listening on 127.0.0.1:4444
-1609743029239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofileDIPqPg"
-*** You are running in headless mode.
+1609838396309	geckodriver	INFO	Listening on 127.0.0.1:4444
+1609838396646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofilepPuT4j"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1609743031382	Marionette	INFO	Listening on port 56569
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-1609743085941	Marionette	INFO	Stopped listening on port 56569
-1609743086651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofile1aVCON"
-*** You are running in headless mode.
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1609743089070	Marionette	INFO	Listening on port 56743
-JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
-1609743170422	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:235:19
-TimedPromise@chrome://marionette/content/sync.js:220:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-1609743172776	Marionette	INFO	Stopped listening on port 56743
+1609838399591	Marionette	INFO	Listening on port 63145
+1609838452825	Marionette	INFO	Stopped listening on port 63145
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -3,8 +3,6 @@ language: node_js
 node_js:
   - 12.16.1
 
-cache: npm
-
 services:
   - xvfb
 
@@ -15,9 +13,6 @@ addons:
 
 before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
-
-install: 
-  - npm install
 
 script:
   - xvfb run npm test

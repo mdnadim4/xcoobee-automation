@@ -5,9 +5,9 @@
 
   <testsuite name="filedrop"
     errors="0" failures="0" hostname="" id="" package="filedrop" skipped="0"
-    tests="4" time="53.82" timestamp="">
+    tests="4" time="46.65" timestamp="">
   
-    <testcase name="Test Case 1: Verify the login element visibility" classname="filedrop" time="6.789" assertions="3">
+    <testcase name="Test Case 1: Verify the login element visibility" classname="filedrop" time="5.812" assertions="3">
 
     
 
@@ -16,17 +16,17 @@
     
     </testcase>
   
-    <testcase name="Test Case 2: Verify the login page" classname="filedrop" time="14.74" assertions="1">
+    <testcase name="Test Case 2: Verify the login page" classname="filedrop" time="14.49" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Test Case 3: Go to File Drop tab section" classname="filedrop" time="5.361" assertions="1">
+    <testcase name="Test Case 3: Go to File Drop tab section" classname="filedrop" time="5.708" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Test Case 4: Verify File Drop options" classname="filedrop" time="26.93" assertions="8">
+    <testcase name="Test Case 4: Verify File Drop options" classname="filedrop" time="20.64" assertions="8">
 
     
 

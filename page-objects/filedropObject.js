@@ -95,22 +95,18 @@ module.exports = {
                 .click("@embeddedForm")
                 .pause(2000)
                 .click("@options")
-                .pause(2000)
                 .assert.valueContains("@width", "400px")
                 .clearValue("@width")
-                .pause(2000)
                 .setValue("@width", "500px")
                 .assert.valueContains("@height", "600px")
                 .clearValue("@height")
-                .pause(2000)
                 .setValue("@height", "700px")
                 .click("@closeButton")
                 .pause(2000)
                 .click("@fileDropDisable")
                 .pause(5000)
 
-    },
-
+        },
 
     }]
 }

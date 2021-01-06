@@ -1,11 +1,8 @@
-1609838396309	geckodriver	INFO	Listening on 127.0.0.1:4444
-1609838396646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofilepPuT4j"
-Can't find symbol 'eglSwapBuffersWithDamageEXT'.
-Can't find symbol 'eglSetDamageRegionKHR'.
+1609914133525	geckodriver	INFO	Listening on 127.0.0.1:4444
+1609914133832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Nadim\\AppData\\Local\\Temp\\rust_mozprofile3mYnag"
+*** You are running in headless mode.
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1609838399591	Marionette	INFO	Listening on port 63145
-1609838452825	Marionette	INFO	Stopped listening on port 63145
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+1609914135709	Marionette	INFO	Listening on port 54682
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1609914181895	Marionette	INFO	Stopped listening on port 54682
